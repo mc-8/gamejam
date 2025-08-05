@@ -8,6 +8,10 @@
     "dev": {
       "persistent": true,
       "cache": false
+    },
+    "format": {
+      "persistent": true,
+      "cache": false
     }
   }
 }

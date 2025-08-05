@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "biome format --write ."
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.2",
-    "astro": "^5.12.5",
+    "astro": "5.12.8",
     "astro-capo": "^0.0.1"
   }
 }
