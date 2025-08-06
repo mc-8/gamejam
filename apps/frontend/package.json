@@ -2,6 +2,7 @@
   "name": "@gamejam/frontend",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
@@ -10,8 +11,10 @@
     "format": "biome format --write ."
   },
   "dependencies": {
+    "@astrojs/preact": "^4.1.0",
     "@astrojs/sitemap": "^3.4.2",
     "astro": "5.12.8",
-    "astro-capo": "^0.0.1"
+    "astro-capo": "^0.0.1",
+    "preact": "^10.27.0"
   }
 }
