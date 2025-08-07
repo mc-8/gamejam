@@ -29,7 +29,8 @@
   "html": {
     "formatter": {
       "attributePosition": "auto",
-      "indentWidth": 2
+      "indentWidth": 2,
+      "whitespaceSensitivity": "strict"
     }
   },
   "assist": {
