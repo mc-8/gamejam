@@ -33,6 +33,12 @@
       "whitespaceSensitivity": "strict"
     }
   },
+  "css": {
+    "formatter": {
+      "indentWidth": 2,
+      "quoteStyle": "single"
+    }
+  },
   "assist": {
     "enabled": true,
     "actions": {
