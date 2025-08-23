@@ -9,10 +9,15 @@
     "format": "biome format --write ."
   },
   "dependencies": {
-    "elysia": "latest"
+    "@libsql/client": "^0.15.12",
+    "drizzle-orm": "^0.44.4",
+    "drizzle-typebox": "^0.3.3",
+    "elysia": "latest",
+    "typebox": "^0.0.1"
   },
   "devDependencies": {
     "@tsconfig/bun": "^1.0.8",
-    "@types/bun": "^1.2.20"
+    "@types/bun": "^1.2.20",
+    "drizzle-kit": "^0.31.4"
   }
 }
