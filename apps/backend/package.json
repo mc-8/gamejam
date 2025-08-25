@@ -11,9 +11,7 @@
   "dependencies": {
     "@libsql/client": "^0.15.12",
     "drizzle-orm": "^0.44.4",
-    "drizzle-typebox": "^0.3.3",
-    "elysia": "latest",
-    "typebox": "^0.0.1"
+    "elysia": "latest"
   },
   "devDependencies": {
     "@tsconfig/bun": "^1.0.8",

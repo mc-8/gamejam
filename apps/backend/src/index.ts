@@ -1,7 +1,14 @@
 import { users } from '@routes/users'
-import { Elysia } from 'elysia'
+import { Elysia, t } from 'elysia'
+
+const schema = t.Object({
+  PORT: t.Number(),
+  DATABASE_URL: t.String(),
+  DATABASE_AUTH_TOKEN: t.String()
+})
 
 const app = new Elysia()
+  .env(schema)
   .use(users)
   .get('/', () => 'Hello GameJam')
   .listen(process.env.PORT || 3000)
