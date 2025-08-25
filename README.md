@@ -7,3 +7,17 @@
   organize awesome game jams around the world with ease!
   <br/>
 </p>
+
+### How to run the project
+
+1. Install all the dependencies.
+
+```console
+bun install
+```
+  
+2. Start the project with the following command:
+
+```console
+turbo dev
+```
